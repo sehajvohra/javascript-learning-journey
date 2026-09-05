@@ -81,36 +81,3 @@ console.log(1 === true);     // false
 
 console.log(null == undefined);   // true
 console.log(null === undefined);  // false
-
-
-// ==========================================
-// IMPORTANT RULES
-// ==========================================
-
-// >, <, >=, <=
-// Usually perform type conversion when needed
-
-// ==
-// Compares values after type conversion
-
-// ===
-// Compares value AND type
-// No type conversion
-
-// null == undefined
-// true
-
-// null == 0
-// false
-
-// null >= 0
-// true
-
-// undefined > 0
-// false
-
-// undefined < 0
-// false
-
-// undefined == 0
-// false
